@@ -13,3 +13,6 @@ This repository contains a survey form for restaurant bookings. It enables users
 
 ## Author
 Kameti Kumbi
+
+## Link
+https://kameti77.github.io/Registration/
