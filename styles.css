@@ -1,0 +1,74 @@
+label {
+    display: block;
+    padding: 0.5em;
+}
+
+select {
+    width: 15em;
+}
+
+#header {
+    width: 80%;
+    background-color: #4a2419;
+    border-radius: 30px 10px 30px 10px;
+    text-align: center;
+    color: #D6BA73;
+    margin: 8% auto;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+#title {
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+p {
+    padding: 1px;
+}
+
+form {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url(https://th.bing.com/th/id/R.2ddc248ab06456ebdbbef44f81319f64?rik=1Qrnolc6BLyPsg&riu=http%3a%2f%2fwww.gafollowers.com%2fwp-content%2fuploads%2f2014%2f09%2fdolce-dining-room.jpg&ehk=ifAJGTl5dw8Y5wj3Pkduw1whWyP94Idq%2b52PzjGTEbc%3d&risl=&pid=ImgRaw&r=0);
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    background-color: #5c3324;
+    backdrop-filter: blur(20px);
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid #411d13;
+    border-radius: 30px 10px 30px 10px;
+}
+
+label {
+    color: #D6BA73;
+}
+
+select,
+textarea,
+input {
+    background-color: #e6ddd5;
+}
+
+#submit {
+    font-size: 25px;
+    border: none;
+    background-color: #5c3324;
+    color: #D6BA73;
+}

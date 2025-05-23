@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Event Registration Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="title">Event Registration Form</h1>
+        <p id="description">Thank you for choosing us! We reserve your place based on your preference.
+        <p>
+    </div>
+    <form id="survey-form">
+        <fieldset>
+            <label id='name-label' for="name">First Name <input id="name" type='text' required
+                    placeholder='George'></label>
+            <label id='last-label' for="lname">Last Name <input id="lname" type='text' required
+                    placeholder='Walter'></label>
+
+            <label id='number-label'>Age <input id="number" type='number' required min='15' max='120'
+                    placeholder='30'></label>
+            <label id='phone-label'>Phone number <input id="phone" type='number' required placeholder='1234567890'
+                    min='0000000000' max='9999999999'></label>
+            <label id='email-label'>Email <input id="email" type='email' required
+                    placeholder='George@example.com'></label>
+            <label>Gender<br>
+                <input name="gender" type="radio" value="right" checked>Female <br>
+                <input name="gender" type="radio" value="right">Male
+            </label>
+            <label>First Time? <br>
+                <input value="dietry" type="checkbox">Yes<br>
+                <input value="dietry" type="checkbox">No
+            </label>
+            <label>Dietry preference<br>
+                <select id='dropdown'>
+                    <option>none</option>
+                    <option>Vegeterian</option>
+                    <option>Vegan</option>
+                    <option>Gluten-free</option>
+                    <option>Diabetic-Friendly</option>
+                    <option>Seasonal allergy</option>
+                    <option>Dairy-Free</option>
+                    <option>Ketogenic</option>
+                </select>
+            </label>
+            <label>Additional Comment:<br>
+                <textarea></textarea>
+            </label>
+            <fieldset>
+                <label>
+                    <input type='submit' id="submit">
+                </label>
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+
+</html>
